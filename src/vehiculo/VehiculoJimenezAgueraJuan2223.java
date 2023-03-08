@@ -36,7 +36,7 @@ public class VehiculoJimenezAgueraJuan2223 {
      * Constructor para iniciar todas las propiedades del vehiculo tres
      * parámetros.
      *
-     * @param .nom
+     * @param nom
      * @param precio
      * @param stock
      */
@@ -82,6 +82,15 @@ public class VehiculoJimenezAgueraJuan2223 {
         setStock(getStock() + cantidad);
     }
 
+    
+    /**
+     * Método para asignar el nombre del vehiculo
+     *
+     * @param cantidad de vehículos se van a vender
+     * @param Exception Muestra excepción si se intenta vender cantidad negativa de vehículos
+     * o mayor a las existencias
+     * 
+     */
     public void vender(int cantidad) throws Exception {
         if (cantidad <= 0) {
             throw new Exception("No se puede vender una cantidad negativa de vehiculos");
