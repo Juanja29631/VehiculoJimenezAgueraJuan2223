@@ -26,23 +26,43 @@ public class VehiculoJimenezAgueraJuan2223 {
     private double precioIVA;
     private int stock;
 
-    /* Constructor sin argumentos */
+    /**
+     * Constructor general sin parámetros
+     */
     public VehiculoJimenezAgueraJuan2223() {
     }
-    // Constructor con parámetro para iniciar todas las propiedades de la clase
+
+    /**
+     * Constructor para iniciar todas las propiedades del vehiculo tres
+     * parámetros.
+     *
+     * @param .nom
+     * @param precio
+     * @param stock
+     */
 
     public VehiculoJimenezAgueraJuan2223(String nom, double precio, int stock) {
         this.nombre = nom;
         this.precio = precio;
         this.stock = stock;
     }
-    // Método para asignar el nombre del vehiculo
 
+    //MÉTODOS
+    // Método para asignar el nombre del vehiculo
+    /**
+     * Método para asignar el nombre del vehiculo
+     *
+     * @param nom nombre del vehículo.
+     */
     public void asignarNombre(String nom) {
         setNombre(nom);
     }
 
-    // Método que me devuelve el nombre del vehiculo
+    /**
+     * Método que me devuelve el nombre del vehiculo
+     *
+     * @return nombre
+     */
     public String obtenerNombre() {
         return getNombre();
     }
@@ -73,7 +93,7 @@ public class VehiculoJimenezAgueraJuan2223 {
     }
 
     /**
-     * @return the nombre
+     * @return  nombre
      */
     public String getNombre() {
         return nombre;
@@ -87,7 +107,7 @@ public class VehiculoJimenezAgueraJuan2223 {
     }
 
     /**
-     * @return el precio
+     * @return  precio
      */
     public double getPrecio() {
         return precio;

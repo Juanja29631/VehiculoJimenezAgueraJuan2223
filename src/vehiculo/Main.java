@@ -1,7 +1,18 @@
 package vehiculo;
-
 /**
- *
+ * Clase que realiza una serie de operaciones (compra, venta, stock, 
+ * resultados por pantalla..) con un objeto de la clase 
+ * VehiculoJimenezAgueraJuan2223 y utilizando dos métodos 
+ * derivados de la misma. 
+ * @author portatil_profesorado
+ * @since 01/01/2022
+ * @version 1.0, 22/02/2022
+ */
+/**
+ * Clase que realiza una serie de operaciones (compra, venta, stock, 
+ * resultados por pantalla..) con un objeto de la clase 
+ * JamonMuleroPedrosaBenjamin2122 y utilizando dos métodos 
+ * derivados de la misma.
  * @author IES Aguadulce
  */
 public class Main {
